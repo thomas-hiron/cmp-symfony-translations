@@ -4,7 +4,7 @@ local symfony_translations = {}
 
 -- Create existing translations from ./var/cache/dev/translations/catalog.fr
 local function load_translations()
-  local handle = io.popen('find -name "catalogue.fr.*.php"')
+  local handle = io.popen('find ./var/cache/dev/translations -name "catalogue.fr.*.php" 2>/dev/null')
   local result = handle:read("*a")
   handle:close()
 
