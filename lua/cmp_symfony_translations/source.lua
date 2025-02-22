@@ -63,7 +63,7 @@ end
 
 function source.complete(self, request, callback)
   local line = vim.fn.getline('.')
-  local triggers = { 'trans', 'addflash', 'message: ' }
+  local triggers = { 'trans', 'addflash', 'message: ', "'label' =>", "'choice_label' =>" }
   local found = false
   local isFlash = false
   local isValidator = false

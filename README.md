@@ -29,12 +29,13 @@ require('cmp').setup({
 
 The plugin is activated for `php` and `twig` filetypes.  
 The trigger character is a single quote, and the line must contains
-`trans`, `addflash` or `message:`. This covers most of Symfony and twig
+`trans`, `addflash`, `message:`, `'label' =>` or `'choice_label' =>`. This covers most of Symfony and twig
 translation functions:
 - PHP
   - $translation->trans
   - $this->addFlash
   - message attribute for validators
+  - form labels
 - Twig
   - ''|trans({}, '')
 
