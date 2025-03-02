@@ -1,5 +1,11 @@
 # cmp-symfony-translations
 
+### ⚠️  This repo has been moved ⚠️
+
+This code has been merged to https://github.com/thomas-hiron/cmp-symfony.
+
+---
+
 [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for symfony translations.  
 The source is using `./var/cache/dev/translations/catalog.fr.SHA1.php` file.
 
